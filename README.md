@@ -1,24 +1,32 @@
-# README
+# Micro Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails micro reddit project 
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To get started with the app, clone the repo and then install the needed gems:
 
-* System dependencies
+```
+$ bundle install --without production
+```
 
-* Configuration
+Next, migrate the database:
 
-* Database creation
+```
+$ rails db:migrate
+```
 
-* Database initialization
+Finally, run the rails console
 
-* How to run the test suite
+```
+$ rails console
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+And now you can play with the users, comments and post like:
 
-* Deployment instructions
+```
+$ user1 = User.create({:username => 'username1', :mail => 'usernamemail@mail.com'})
+```
 
-* ...
+# Author
+* **Denis Cuenca Brex** - [Denis Cuenca Brex](https://github.com/DenisCuencaBrex)
