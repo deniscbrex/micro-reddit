@@ -2,7 +2,6 @@
 
 Rails micro reddit project 
 
-Things you may want to cover:
 ## Getting started
 
 To get started with the app, clone the repo and then install the needed gems:
