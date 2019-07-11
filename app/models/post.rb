@@ -6,4 +6,5 @@ class Post < ApplicationRecord
 
   validates :title, presence: true, length: { maximum: 20 }
   validates :user_id, presence: true
+  validates :body, presence: true, length: { maximum: 150 }
 end
